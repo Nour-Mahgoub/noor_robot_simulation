@@ -1,0 +1,8 @@
+prefix=/home/morshedy/noor_robot_urdf/devel
+
+Name: slam_gmapping
+Description: Description of slam_gmapping
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

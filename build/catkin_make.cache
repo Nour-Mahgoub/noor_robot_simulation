@@ -1,0 +1,2 @@
+navigation:noor_robot/noor_robot:slam_gmapping
+-DCATKIN_DEVEL_PREFIX=/home/morshedy/noor_robot_urdf/devel -DCMAKE_INSTALL_PREFIX=/home/morshedy/noor_robot_urdf/install -G Unix Makefiles

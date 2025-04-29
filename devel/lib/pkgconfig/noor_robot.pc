@@ -1,0 +1,8 @@
+prefix=/home/morshedy/noor_robot_urdf/devel
+
+Name: noor_robot
+Description: Description of noor_robot
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
