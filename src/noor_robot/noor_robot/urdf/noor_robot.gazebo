@@ -76,9 +76,9 @@
                         <!-- Resolution of the scan (typically 1 means 1 ray per angle unit) -->
                         <resolution>1</resolution>
                         <!-- Minimum angle of the scan (in radians, -3π/4 for a 270-degree scan) -->
-                        <min_angle>-2.356194</min_angle>
+                        <min_angle>-1.570796</min_angle>
                         <!-- Maximum angle of the scan (in radians, 3π/4 for a 270-degree scan) -->
-                        <max_angle>2.356194</max_angle>
+                        <max_angle>1.570796</max_angle>
                     </horizontal>
                 </scan>
 
