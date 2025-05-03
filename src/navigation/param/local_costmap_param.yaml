@@ -18,7 +18,7 @@ local_costmap:
     - {name: laser_layer,         type: "costmap_2d::ObstacleLayer"} 
     - {name: inflation_layer,     type: "costmap_2d::InflationLayer"}
 
-    obstacles:
+   obstacles:
     observation_sources: laser_scan
     laser_scan: {sensor_frame: laser_frame, data_type: LaserScan, topic: scan, marking: true, clearing: true}
     
