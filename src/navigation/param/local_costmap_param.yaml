@@ -23,5 +23,5 @@ local_costmap:
     laser_scan: {sensor_frame: laser_frame, data_type: LaserScan, topic: scan, marking: true, clearing: true}
     
   inflation:
-    inflation_radius: 0.5
-    cost_scaling_factor: 5.0
+    inflation_radius: 0.7
+    cost_scaling_factor: 10.0
