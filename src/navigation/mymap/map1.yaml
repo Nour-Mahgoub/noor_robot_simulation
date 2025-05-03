@@ -1,4 +1,4 @@
-image: ~/noor_robot_simulation/src/navigation/mymap/map1.pgm
+image: map1.pgm
 resolution: 0.050000
 origin: [-22.800000, -10.000000, 0.000000]
 negate: 0
