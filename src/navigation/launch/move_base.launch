@@ -20,6 +20,14 @@
     <rosparam file="$(find navigation)/param/global_planner_param.yaml" command="load" />
     <rosparam file="$(find navigation)/param/navfn_global_planner_param.yaml" command="load" />
 
+  <!-- Force static layer to use correct map topic -->
+  <param name="global_costmap/static_layer/map_topic" value="/map"/>
+  <param name="global_costmap/static_layer/subscribe_to_updates" value="true"/>
+  
+  <!-- Adjust timing parameters -->
+  <param name="transform_tolerance" value="3.5"/>
+  <param name="controller_patience" value="5.0"/>
+
 
     <!-- reset frame_id parameters using user input data -->
     <param name="global_costmap/global_frame" value="$(arg global_frame_id)"/>
