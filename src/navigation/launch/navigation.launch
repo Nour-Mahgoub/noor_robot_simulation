@@ -2,7 +2,7 @@
 <launch>
 
   Arguments 
- <arg name="map_file" default="$(eval find navigation)/mymap/mymap.yaml"/>
+ <arg name="map_file" default="$( find navigation)/mymap/mymap.yaml"/>
  
 
   <!-- Map server -->
