@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "navigation"
-PROJECT_SPACE_DIR = "/home/morshedy/noor_robot_urdf/install"
+PROJECT_SPACE_DIR = "/root/noor_robot_simulation/install"
 PROJECT_VERSION = "0.0.0"

@@ -1,8 +1,8 @@
-# Install script for directory: /home/morshedy/noor_robot_urdf/src
+# Install script for directory: /root/noor_robot_simulation/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/morshedy/noor_robot_urdf/install")
+  set(CMAKE_INSTALL_PREFIX "/root/noor_robot_simulation/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,91 +49,91 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/morshedy/noor_robot_urdf/install/_setup_util.py")
+   "/root/noor_robot_simulation/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/morshedy/noor_robot_urdf/install" TYPE PROGRAM FILES "/home/morshedy/noor_robot_urdf/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/root/noor_robot_simulation/install" TYPE PROGRAM FILES "/root/noor_robot_simulation/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/morshedy/noor_robot_urdf/install/env.sh")
+   "/root/noor_robot_simulation/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/morshedy/noor_robot_urdf/install" TYPE PROGRAM FILES "/home/morshedy/noor_robot_urdf/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/root/noor_robot_simulation/install" TYPE PROGRAM FILES "/root/noor_robot_simulation/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/morshedy/noor_robot_urdf/install/setup.bash;/home/morshedy/noor_robot_urdf/install/local_setup.bash")
+   "/root/noor_robot_simulation/install/setup.bash;/root/noor_robot_simulation/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/morshedy/noor_robot_urdf/install" TYPE FILE FILES
-    "/home/morshedy/noor_robot_urdf/build/catkin_generated/installspace/setup.bash"
-    "/home/morshedy/noor_robot_urdf/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/root/noor_robot_simulation/install" TYPE FILE FILES
+    "/root/noor_robot_simulation/build/catkin_generated/installspace/setup.bash"
+    "/root/noor_robot_simulation/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/morshedy/noor_robot_urdf/install/setup.sh;/home/morshedy/noor_robot_urdf/install/local_setup.sh")
+   "/root/noor_robot_simulation/install/setup.sh;/root/noor_robot_simulation/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/morshedy/noor_robot_urdf/install" TYPE FILE FILES
-    "/home/morshedy/noor_robot_urdf/build/catkin_generated/installspace/setup.sh"
-    "/home/morshedy/noor_robot_urdf/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/root/noor_robot_simulation/install" TYPE FILE FILES
+    "/root/noor_robot_simulation/build/catkin_generated/installspace/setup.sh"
+    "/root/noor_robot_simulation/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/morshedy/noor_robot_urdf/install/setup.zsh;/home/morshedy/noor_robot_urdf/install/local_setup.zsh")
+   "/root/noor_robot_simulation/install/setup.zsh;/root/noor_robot_simulation/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/morshedy/noor_robot_urdf/install" TYPE FILE FILES
-    "/home/morshedy/noor_robot_urdf/build/catkin_generated/installspace/setup.zsh"
-    "/home/morshedy/noor_robot_urdf/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/root/noor_robot_simulation/install" TYPE FILE FILES
+    "/root/noor_robot_simulation/build/catkin_generated/installspace/setup.zsh"
+    "/root/noor_robot_simulation/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/morshedy/noor_robot_urdf/install/.rosinstall")
+   "/root/noor_robot_simulation/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/morshedy/noor_robot_urdf/install" TYPE FILE FILES "/home/morshedy/noor_robot_urdf/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/root/noor_robot_simulation/install" TYPE FILE FILES "/root/noor_robot_simulation/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/morshedy/noor_robot_urdf/build/gtest/cmake_install.cmake")
-  include("/home/morshedy/noor_robot_urdf/build/slam_gmapping/cmake_install.cmake")
-  include("/home/morshedy/noor_robot_urdf/build/navigation/cmake_install.cmake")
-  include("/home/morshedy/noor_robot_urdf/build/noor_robot/noor_robot/cmake_install.cmake")
+  include("/root/noor_robot_simulation/build/gtest/cmake_install.cmake")
+  include("/root/noor_robot_simulation/build/slam_gmapping/cmake_install.cmake")
+  include("/root/noor_robot_simulation/build/navigation/cmake_install.cmake")
+  include("/root/noor_robot_simulation/build/noor_robot/noor_robot/cmake_install.cmake")
 
 endif()
 
@@ -145,5 +145,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/morshedy/noor_robot_urdf/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/noor_robot_simulation/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

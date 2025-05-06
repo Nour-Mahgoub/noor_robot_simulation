@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/morshedy/noor_robot_urdf/install/setup.sh
+    local-name: /root/noor_robot_simulation/install/setup.sh

@@ -67,14 +67,14 @@ set(noor_robot_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(noor_robot_SOURCE_PREFIX /home/morshedy/noor_robot_urdf/src/noor_robot/noor_robot)
-  set(noor_robot_DEVEL_PREFIX /home/morshedy/noor_robot_urdf/devel)
+  set(noor_robot_SOURCE_PREFIX /root/noor_robot_simulation/src/noor_robot/noor_robot)
+  set(noor_robot_DEVEL_PREFIX /root/noor_robot_simulation/devel)
   set(noor_robot_INSTALL_PREFIX "")
   set(noor_robot_PREFIX ${noor_robot_DEVEL_PREFIX})
 else()
   set(noor_robot_SOURCE_PREFIX "")
   set(noor_robot_DEVEL_PREFIX "")
-  set(noor_robot_INSTALL_PREFIX /home/morshedy/noor_robot_urdf/install)
+  set(noor_robot_INSTALL_PREFIX /root/noor_robot_simulation/install)
   set(noor_robot_PREFIX ${noor_robot_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/morshedy/noor_robot_urdf/install/lib;/home/morshedy/noor_robot_urdf/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /root/noor_robot_simulation/install/lib;/root/noor_robot_simulation/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(noor_robot_LIBRARIES ${noor_robot_LIBRARIES})
 
   _list_append_unique(noor_robot_LIBRARY_DIRS ${${noor_robot_dep}_LIBRARY_DIRS})
-  _list_append_deduplicate(noor_robot_EXPORTED_TARGETS ${${noor_robot_dep}_EXPORTED_TARGETS})
+  list(APPEND noor_robot_EXPORTED_TARGETS ${${noor_robot_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

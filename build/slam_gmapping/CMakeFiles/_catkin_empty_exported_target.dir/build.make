@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/morshedy/noor_robot_urdf/src
+CMAKE_SOURCE_DIR = /root/noor_robot_simulation/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/morshedy/noor_robot_urdf/build
+CMAKE_BINARY_DIR = /root/noor_robot_simulation/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/build: _catkin_empty_
 .PHONY : slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/morshedy/noor_robot_urdf/build/slam_gmapping && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /root/noor_robot_simulation/build/slam_gmapping && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/morshedy/noor_robot_urdf/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/morshedy/noor_robot_urdf/src /home/morshedy/noor_robot_urdf/src/slam_gmapping /home/morshedy/noor_robot_urdf/build /home/morshedy/noor_robot_urdf/build/slam_gmapping /home/morshedy/noor_robot_urdf/build/slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/noor_robot_simulation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/noor_robot_simulation/src /root/noor_robot_simulation/src/slam_gmapping /root/noor_robot_simulation/build /root/noor_robot_simulation/build/slam_gmapping /root/noor_robot_simulation/build/slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

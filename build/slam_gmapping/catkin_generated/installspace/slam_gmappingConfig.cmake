@@ -67,14 +67,14 @@ set(slam_gmapping_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(slam_gmapping_SOURCE_PREFIX /home/morshedy/noor_robot_urdf/src/slam_gmapping)
-  set(slam_gmapping_DEVEL_PREFIX /home/morshedy/noor_robot_urdf/devel)
+  set(slam_gmapping_SOURCE_PREFIX /root/noor_robot_simulation/src/slam_gmapping)
+  set(slam_gmapping_DEVEL_PREFIX /root/noor_robot_simulation/devel)
   set(slam_gmapping_INSTALL_PREFIX "")
   set(slam_gmapping_PREFIX ${slam_gmapping_DEVEL_PREFIX})
 else()
   set(slam_gmapping_SOURCE_PREFIX "")
   set(slam_gmapping_DEVEL_PREFIX "")
-  set(slam_gmapping_INSTALL_PREFIX /home/morshedy/noor_robot_urdf/install)
+  set(slam_gmapping_INSTALL_PREFIX /root/noor_robot_simulation/install)
   set(slam_gmapping_PREFIX ${slam_gmapping_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/morshedy/noor_robot_urdf/install/lib;/home/morshedy/noor_robot_urdf/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /root/noor_robot_simulation/install/lib;/root/noor_robot_simulation/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(slam_gmapping_LIBRARIES ${slam_gmapping_LIBRARIES})
 
   _list_append_unique(slam_gmapping_LIBRARY_DIRS ${${slam_gmapping_dep}_LIBRARY_DIRS})
-  _list_append_deduplicate(slam_gmapping_EXPORTED_TARGETS ${${slam_gmapping_dep}_EXPORTED_TARGETS})
+  list(APPEND slam_gmapping_EXPORTED_TARGETS ${${slam_gmapping_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

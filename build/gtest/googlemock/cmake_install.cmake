@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/morshedy/noor_robot_urdf/install")
+  set(CMAKE_INSTALL_PREFIX "/root/noor_robot_simulation/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/morshedy/noor_robot_urdf/build/gtest/googletest/cmake_install.cmake")
+  include("/root/noor_robot_simulation/build/gtest/googletest/cmake_install.cmake")
 
 endif()
 

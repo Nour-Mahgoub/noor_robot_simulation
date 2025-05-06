@@ -1,8 +1,8 @@
-# Install script for directory: /home/morshedy/noor_robot_urdf/src/noor_robot/noor_robot
+# Install script for directory: /root/noor_robot_simulation/src/noor_robot/noor_robot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/morshedy/noor_robot_urdf/install")
+  set(CMAKE_INSTALL_PREFIX "/root/noor_robot_simulation/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,33 +38,33 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/morshedy/noor_robot_urdf/build/noor_robot/noor_robot/catkin_generated/installspace/noor_robot.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/root/noor_robot_simulation/build/noor_robot/noor_robot/catkin_generated/installspace/noor_robot.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/noor_robot/cmake" TYPE FILE FILES
-    "/home/morshedy/noor_robot_urdf/build/noor_robot/noor_robot/catkin_generated/installspace/noor_robotConfig.cmake"
-    "/home/morshedy/noor_robot_urdf/build/noor_robot/noor_robot/catkin_generated/installspace/noor_robotConfig-version.cmake"
+    "/root/noor_robot_simulation/build/noor_robot/noor_robot/catkin_generated/installspace/noor_robotConfig.cmake"
+    "/root/noor_robot_simulation/build/noor_robot/noor_robot/catkin_generated/installspace/noor_robotConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/noor_robot" TYPE FILE FILES "/home/morshedy/noor_robot_urdf/src/noor_robot/noor_robot/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/noor_robot" TYPE FILE FILES "/root/noor_robot_simulation/src/noor_robot/noor_robot/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/noor_robot/config" TYPE DIRECTORY FILES "/home/morshedy/noor_robot_urdf/src/noor_robot/noor_robot/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/noor_robot/config" TYPE DIRECTORY FILES "/root/noor_robot_simulation/src/noor_robot/noor_robot/config/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/noor_robot/launch" TYPE DIRECTORY FILES "/home/morshedy/noor_robot_urdf/src/noor_robot/noor_robot/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/noor_robot/launch" TYPE DIRECTORY FILES "/root/noor_robot_simulation/src/noor_robot/noor_robot/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/noor_robot/meshes" TYPE DIRECTORY FILES "/home/morshedy/noor_robot_urdf/src/noor_robot/noor_robot/meshes/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/noor_robot/meshes" TYPE DIRECTORY FILES "/root/noor_robot_simulation/src/noor_robot/noor_robot/meshes/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/noor_robot/urdf" TYPE DIRECTORY FILES "/home/morshedy/noor_robot_urdf/src/noor_robot/noor_robot/urdf/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/noor_robot/urdf" TYPE DIRECTORY FILES "/root/noor_robot_simulation/src/noor_robot/noor_robot/urdf/")
 endif()
 

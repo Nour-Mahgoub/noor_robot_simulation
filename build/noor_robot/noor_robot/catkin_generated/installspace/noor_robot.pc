@@ -1,4 +1,4 @@
-prefix=/home/morshedy/noor_robot_urdf/install
+prefix=/root/noor_robot_simulation/install
 
 Name: noor_robot
 Description: Description of noor_robot

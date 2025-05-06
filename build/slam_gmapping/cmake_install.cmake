@@ -1,8 +1,8 @@
-# Install script for directory: /home/morshedy/noor_robot_urdf/src/slam_gmapping
+# Install script for directory: /root/noor_robot_simulation/src/slam_gmapping
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/morshedy/noor_robot_urdf/install")
+  set(CMAKE_INSTALL_PREFIX "/root/noor_robot_simulation/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/morshedy/noor_robot_urdf/build/slam_gmapping/catkin_generated/installspace/slam_gmapping.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/root/noor_robot_simulation/build/slam_gmapping/catkin_generated/installspace/slam_gmapping.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/slam_gmapping/cmake" TYPE FILE FILES
-    "/home/morshedy/noor_robot_urdf/build/slam_gmapping/catkin_generated/installspace/slam_gmappingConfig.cmake"
-    "/home/morshedy/noor_robot_urdf/build/slam_gmapping/catkin_generated/installspace/slam_gmappingConfig-version.cmake"
+    "/root/noor_robot_simulation/build/slam_gmapping/catkin_generated/installspace/slam_gmappingConfig.cmake"
+    "/root/noor_robot_simulation/build/slam_gmapping/catkin_generated/installspace/slam_gmappingConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/slam_gmapping" TYPE FILE FILES "/home/morshedy/noor_robot_urdf/src/slam_gmapping/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/slam_gmapping" TYPE FILE FILES "/root/noor_robot_simulation/src/slam_gmapping/package.xml")
 endif()
 

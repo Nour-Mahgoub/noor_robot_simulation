@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/morshedy/noor_robot_urdf/src
+CMAKE_SOURCE_DIR = /root/noor_robot_simulation/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/morshedy/noor_robot_urdf/build
+CMAKE_BINARY_DIR = /root/noor_robot_simulation/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/morshedy/noor_robot_urdf/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/morshedy/noor_robot_urdf/build/CMakeFiles /home/morshedy/noor_robot_urdf/build/slam_gmapping/CMakeFiles/progress.marks
-	cd /home/morshedy/noor_robot_urdf/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/morshedy/noor_robot_urdf/build/CMakeFiles 0
+	cd /root/noor_robot_simulation/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/noor_robot_simulation/build/CMakeFiles /root/noor_robot_simulation/build/slam_gmapping/CMakeFiles/progress.marks
+	cd /root/noor_robot_simulation/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/noor_robot_simulation/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/morshedy/noor_robot_urdf/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/clean
+	cd /root/noor_robot_simulation/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/morshedy/noor_robot_urdf/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/preinstall
+	cd /root/noor_robot_simulation/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/morshedy/noor_robot_urdf/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/preinstall
+	cd /root/noor_robot_simulation/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/morshedy/noor_robot_urdf/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/noor_robot_simulation/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/morshedy/noor_robot_urdf/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/rule
+	cd /root/noor_robot_simulation/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/rule
 .PHONY : slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ _catkin_empty_exported_target: slam_gmapping/CMakeFiles/_catkin_empty_exported_t
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	cd /home/morshedy/noor_robot_urdf/build && $(MAKE) -f slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/build.make slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/build
+	cd /root/noor_robot_simulation/build && $(MAKE) -f slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/build.make slam_gmapping/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 # Help Target
@@ -207,6 +207,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/morshedy/noor_robot_urdf/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/noor_robot_simulation/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

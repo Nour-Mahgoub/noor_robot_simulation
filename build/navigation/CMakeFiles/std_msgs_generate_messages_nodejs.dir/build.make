@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/morshedy/noor_robot_urdf/src
+CMAKE_SOURCE_DIR = /root/noor_robot_simulation/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/morshedy/noor_robot_urdf/build
+CMAKE_BINARY_DIR = /root/noor_robot_simulation/build
 
 # Utility rule file for std_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ navigation/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build: std_msgs_gene
 .PHONY : navigation/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 
 navigation/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/morshedy/noor_robot_urdf/build/navigation && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /root/noor_robot_simulation/build/navigation && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : navigation/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 navigation/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/morshedy/noor_robot_urdf/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/morshedy/noor_robot_urdf/src /home/morshedy/noor_robot_urdf/src/navigation /home/morshedy/noor_robot_urdf/build /home/morshedy/noor_robot_urdf/build/navigation /home/morshedy/noor_robot_urdf/build/navigation/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/noor_robot_simulation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/noor_robot_simulation/src /root/noor_robot_simulation/src/navigation /root/noor_robot_simulation/build /root/noor_robot_simulation/build/navigation /root/noor_robot_simulation/build/navigation/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : navigation/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 
