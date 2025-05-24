@@ -8,7 +8,6 @@ footprint_padding: 0.1
 
 
 
-
 laser_layer:
   observation_sources:  scan 
   scan:
@@ -20,7 +19,6 @@ laser_layer:
     max_obstacle_height: 0.35
     obstacle_range: 4.0
     raytrace_range: 5.0
-    sensor_frame: laser  # Changed from laser_frame (added)
   # for debugging only, let's you see the entire voxel grid
 
 #cost_scaling_factor and inflation_radius were now moved to the inflation_layer ns
