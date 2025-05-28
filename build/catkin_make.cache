@@ -1,2 +1,2 @@
-navigation:noor_robot/noor_robot:slam_gmapping
+navigation:noor_robot/noor_robot:simple_navigation_goals:slam_gmapping
 -DCATKIN_DEVEL_PREFIX=/root/noor_robot_simulation/devel -DCMAKE_INSTALL_PREFIX=/root/noor_robot_simulation/install -G Unix Makefiles

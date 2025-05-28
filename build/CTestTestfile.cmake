@@ -7,4 +7,5 @@
 subdirs("gtest")
 subdirs("slam_gmapping")
 subdirs("navigation")
+subdirs("simple_navigation_goals")
 subdirs("noor_robot/noor_robot")

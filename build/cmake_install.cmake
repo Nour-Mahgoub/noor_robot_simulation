@@ -133,6 +133,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/root/noor_robot_simulation/build/gtest/cmake_install.cmake")
   include("/root/noor_robot_simulation/build/slam_gmapping/cmake_install.cmake")
   include("/root/noor_robot_simulation/build/navigation/cmake_install.cmake")
+  include("/root/noor_robot_simulation/build/simple_navigation_goals/cmake_install.cmake")
   include("/root/noor_robot_simulation/build/noor_robot/noor_robot/cmake_install.cmake")
 
 endif()
